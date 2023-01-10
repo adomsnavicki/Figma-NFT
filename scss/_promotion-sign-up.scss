@@ -1,0 +1,43 @@
+.promotion-sign-up {
+  @include sm {
+    margin-bottom: 40px;
+  }
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 50px 0 0 0;
+  display: flex;
+  box-shadow: 0px 1px 1px rgb(221, 216, 216), 0px -1px 1px rgb(221, 216, 216);
+  .logo-right {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    @include sm {
+      justify-content: start;
+      img {
+        padding-left: 40px;
+      }
+    }
+  }
+
+  .main-p-1 {
+    font-size: 16px;
+    color: #e713cd;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h4 {
+    font-size: 40px;
+    margin: 0;
+    font-weight: bolder;
+  }
+  .main-p-2 {
+    font-size: 20px;
+  }
+  .sign-left {
+    @include sm {
+      width: 15%;
+      padding-bottom: 40px;
+    }
+    padding-top: 40px;
+  }
+}

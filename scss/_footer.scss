@@ -1,0 +1,101 @@
+.footer {
+  margin-left: 10px;
+  margin-right: 10px;
+  .footer-top {
+    @include xl {
+      justify-content: start;
+      .right {
+        padding-left: 300px;
+      }
+      @include md {
+        .right {
+          padding-left: 100px;
+        }
+      }
+      @include md1 {
+        flex-wrap: wrap;
+        .right {
+          width: 100%;
+          padding: 0;
+        }
+        .left {
+          margin-top: 40px;
+        }
+      }
+    }
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .right {
+      @include sm {
+        display: grid;
+        grid-template-columns: 8% 8%;
+      }
+
+      display: flex;
+    }
+    li {
+      list-style: none;
+      padding: 2px;
+    }
+    ul {
+      padding: 0 0 10px 0;
+    }
+    .about {
+      @include md1 {
+        padding-left: 0;
+      }
+      @include sm {
+        padding: 10px 0;
+      }
+      padding: 40px;
+    }
+    .nft {
+      @include sm {
+        padding: 10px 0;
+      }
+      padding: 40px;
+    }
+    .contact {
+      @include sm {
+        padding: 10px 0;
+      }
+      padding: 40px;
+    }
+    .social {
+      @include sm {
+        padding: 10px 0;
+      }
+      padding: 40px;
+    }
+    .li-top {
+      padding-bottom: 10px;
+      font-weight: bold;
+    }
+    .left {
+      .p {
+        padding: 10px 0;
+      }
+    }
+  }
+  .down-footer {
+    @include xl {
+      justify-content: start;
+      .years {
+        padding-left: 700px;
+      }
+    }
+    @include md {
+      .years {
+        padding-left: 530px;
+      }
+    }
+    @include md1 {
+      .years {
+        padding-left: 230px;
+      }
+    }
+    display: flex;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,16 @@
+.logo-line {
+  @include sm {
+    display: grid;
+    grid-template-columns: 18% 18%;
+    gap: 20px;
+    justify-content: start;
+    .sm-none {
+      display: none;
+    }
+  }
+  margin: 100px 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+.section-promotion {
+  
+  
+  background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+  padding: 100px 0px 40px 40px;
+  border-radius: 20px;
+  h2 {
+    @include sm { width:30%;}
+    font-size: 40px;
+  }
+  p {
+    @include sm { width:30%;}
+    font-size: 20px;
+  }
+}

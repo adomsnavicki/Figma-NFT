@@ -1,0 +1,27 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+  background: white;
+}
+.container-wrap {
+  overflow: hidden;
+}
+.btn-color {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  background-color: #d224ff;
+  cursor: pointer;
+}
+.btn-color:hover {
+  width: 40px;
+}

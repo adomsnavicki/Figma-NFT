@@ -1,0 +1,57 @@
+.main {
+  @include md1 {
+    position: relative;
+    padding: 100px 0 50px;
+    width: 50%;
+  }
+  @include sm {
+    padding: 100px 0 50px;
+    position: relative;
+  }
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.main-left {
+  @include sm {
+    width: 50%;
+  }
+  h1 {
+    @include md1 {
+      font-size: 80px;
+    }
+    @include sm {
+      font-size: 50px;
+    }
+    margin: 0;
+    font-size: 96px;
+  }
+}
+.main-p-1 {
+  font-size: 16px;
+  color: #e713cd;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.main-p-2 {
+  font-size: 20px;
+}
+.main-right {
+  @include md1 {
+    img {
+      top: 5%;
+      height: 600px;
+      position: absolute;
+      left: 80%;
+    }
+  }
+  @include sm {
+    img {
+      position: absolute;
+      height: 350px;
+      top: 10%;
+      left: 32%;
+    }
+  }
+}

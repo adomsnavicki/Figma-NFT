@@ -1,0 +1,8 @@
+.menu-hamburger {
+  display: none;
+  @include xxl {
+    display: grid;
+    justify-items: end;
+    padding-right: 30px;
+  }
+}
