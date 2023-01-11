@@ -27,8 +27,31 @@ body {
   cursor: pointer;
 }
 
+@-webkit-keyframes slideinleft {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideinleft {
+  from {
+    transform: translateY(-100px);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 .btn-color:hover {
   width: 40px;
+}
+
+.btn-color {
+  -webkit-animation: slideinleft 0.2s ease-in 1s 1 normal forwards;
+          animation: slideinleft 0.2s ease-in 1s 1 normal forwards;
+  transform: translateY(-150px);
 }
 
 .menu-hamburger {
