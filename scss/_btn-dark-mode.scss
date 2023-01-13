@@ -51,8 +51,8 @@
 }
 .dark-mode-button {
   @include xxl {
-    top: 25px;
-    left: 240px;
+    top: 65px;
+    left: 30px;
   }
   top: 65px;
   left: 220px;
@@ -70,6 +70,7 @@
 
     img {
       height: 30px;
+      width: 50px;
     }
   }
 }

@@ -571,8 +571,8 @@ a:hover {
 }
 @media screen and (max-width: 1300px) {
   .dark-mode-button {
-    top: 25px;
-    left: 240px;
+    top: 65px;
+    left: 30px;
   }
 }
 .dark-mode-button button {
@@ -583,4 +583,5 @@ a:hover {
 }
 .dark-mode-button button img {
   height: 30px;
+  width: 50px;
 }/*# sourceMappingURL=style.css.map */
