@@ -27,6 +27,7 @@ body {
     display: grid;
     justify-items: end;
     padding-right: 30px;
+    padding-top: 8px;
   }
 }
 
@@ -43,6 +44,7 @@ body {
   .header {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     position: fixed;
     width: 100%;
     background-color: white;
@@ -53,6 +55,11 @@ body {
   }
   .header .header-left {
     padding-left: 30px;
+  }
+}
+@media screen and (max-width: 1300px) and (max-width: 1300px) {
+  .header .header-left {
+    padding-top: 8px;
   }
 }
 
@@ -571,7 +578,7 @@ a:hover {
 }
 @media screen and (max-width: 1300px) {
   .dark-mode-button {
-    top: 65px;
+    top: 45px;
     left: 30px;
   }
 }
