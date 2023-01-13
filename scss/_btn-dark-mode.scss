@@ -1,0 +1,75 @@
+.dark-theme {
+  .header {
+    a:hover {
+      background: linear-gradient(
+          to right,
+          rgb(24, 216, 200),
+          rgb(140, 20, 204)
+        )
+        border-box;
+      padding: 5px;
+    }
+  }
+  color: white;
+  a {
+    color: white;
+  }
+  background-color: black;
+  .container {
+    background-color: black;
+  }
+  .header-left {
+    img {
+      background-color: white;
+      opacity: 0.4;
+    }
+  }
+  .logo-line {
+    img {
+      background-color: white;
+      opacity: 0.4;
+    }
+  }
+  .info-list {
+    background: linear-gradient(to right, rgb(24, 216, 200), rgb(140, 20, 204))
+      border-box;
+  }
+  .border-gradient {
+    background-color: black;
+    a {
+      color: black;
+    }
+  }
+  .dark-mode-button {
+    display: flex;
+    justify-content: end;
+    background-color: white;
+    button {
+      background-color: rgb(241, 238, 238);
+    }
+  }
+}
+.dark-mode-button {
+  @include xxl {
+    top: 25px;
+    left: 240px;
+  }
+  top: 65px;
+  left: 220px;
+  position: absolute;
+  display: flex;
+  justify-content: start;
+  border: 3px solid rgb(0, 0, 0);
+
+  width: 80px;
+  button {
+    cursor: pointer;
+    width: 40px;
+    height: 30px;
+    background-color: rgb(14, 13, 13);
+
+    img {
+      height: 30px;
+    }
+  }
+}

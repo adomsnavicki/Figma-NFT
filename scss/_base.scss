@@ -15,27 +15,3 @@ body {
 .container-wrap {
   overflow: hidden;
 }
-.btn-color {
-  height: 30px;
-  width: 30px;
-  border-radius: 30px;
-  background-color: #d224ff;
-  cursor: pointer;
-}
-// Animation
-@keyframes slideinleft {
-  from {
-    transform: translateY(-100px);
-  }
-
-  to {
-    transform: translateX(0);
-  }
-}
-.btn-color:hover {
-  width: 40px;
-}
-.btn-color {
-  animation: slideinleft 0.2s ease-in 1s 1 normal forwards;
-  transform: translateY(-150px);
-}
