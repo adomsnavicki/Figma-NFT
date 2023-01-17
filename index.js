@@ -8,5 +8,4 @@ var test = document.getElementById("test");
 
 test.onclick = function () {
   document.body.classList.toggle("test");
-  
 };
